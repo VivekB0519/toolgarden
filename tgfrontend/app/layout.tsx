@@ -18,7 +18,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        <main className="min-h-[calc(100vh-7rem)]">{children}</main>
+        <main className="flex min-h-[calc(100vh-7rem)] flex-col">{children}</main>
         <Footer />
       </body>
     </html>

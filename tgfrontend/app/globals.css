@@ -127,3 +127,8 @@
     @apply font-sans;
   }
 }
+body {
+  @apply bg-background text-foreground;
+  background-image: radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 55%),
+    radial-gradient(circle at top right, rgba(16, 185, 129, 0.18), transparent 55%);
+}
